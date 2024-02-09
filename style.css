@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+}
+input:focus{
+    border: 1px solid blue;
+    box-shadow: 0 0 5px blue;
+}
+button{
+    width: 30px;
+    height: 20px;
+    background-color: rgba(0, 139, 253, 0.623);
+    border: 0.5px solid blue;
+    box-shadow: 0 0 5px blue;
+    
+}
